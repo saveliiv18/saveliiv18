@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi👋! I am a freshman at Stony Brook University studying Applied Mathematics and Statistics, while pursuing a Computer Science double major. I am highly interested in the intersection of Artificial Intelligence, mathematics, and computer science, and how these fields can be leveraged to develop impactful real-world solutions in AI, business, and cybersecurity fields.<br><br>Through my coursework and independent learning, I am building a strong analytical and technical foundation while exploring how quantitative thinking and technology can solve complex problems. I am especially interested in the role of data, algorithms, and intelligent systems in driving innovation and decision-making.<br><br>I am actively seeking hands-on technical opportunities where I can apply my skills, continue learning, and grow in a real-world environment.
+Hi👋! I am a sophomore at Stony Brook University pursuing dual majors in Computer Science and Applied Mathematics & Statistics. Passionate about artificial intelligence, machine learning, and algorithms. I aim to leverage these fields to develop solutions across quantitative finance and AI fields.
 
 
 ## 🌐 Socials:
