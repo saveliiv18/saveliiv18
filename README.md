@@ -1,5 +1,5 @@
-# 💫 About Me:
-Hi👋! I am a sophomore at Stony Brook University pursuing dual majors in Computer Science and Applied Mathematics & Statistics. Passionate about artificial intelligence, machine learning, and algorithms. I aim to leverage these fields to develop solutions across quantitative finance and AI fields.
+# About Me:
+Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer Science and Applied Mathematics & Statistics. Passionate about artificial intelligence, machine learning, and algorithms. I aim to leverage these fields to develop solutions across quantitative finance and AI fields.
 
 
 ## 🌐 Socials:
