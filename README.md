@@ -78,7 +78,6 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 </p>
 
 # GitHub Stats:
-# GitHub Stats
 
 <p align="center">
 
