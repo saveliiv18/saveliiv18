@@ -8,73 +8,42 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 <h1>Skills</h1>
 
 <h3>Programming Languages</h3>
-
 <p>
-
-  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/R-0D1117?style=for-the-badge&logo=r&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/HTML%2FCSS-0D1117?style=for-the-badge&logo=html5&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk" />
+  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c" />
+  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript" />
+  <img src="https://img.shields.io/badge/R-0D1117?style=for-the-badge&logo=r" />
+  <img src="https://img.shields.io/badge/HTML%2FCSS-0D1117?style=for-the-badge&logo=html5" />
 </p>
 
 <h3>Frameworks & Libraries</h3>
-
 <p>
-
-  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=python&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy" />
+  <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn" />
+  <img src="https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge" />
 </p>
 
 <h3>Tools & Platforms</h3>
-
 <p>
-
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=white" />
-
-  <img src="https://img.shields.io/badge/Unix_Shell-0D1117?style=for-the-badge&logo=gnubash&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git" />
+  <img src="https://img.shields.io/badge/Unix_Shell-0D1117?style=for-the-badge&logo=gnubash" />
   <img src="https://img.shields.io/badge/Lean_4-0D1117?style=for-the-badge" />
-
   <img src="https://img.shields.io/badge/Mathlib-0D1117?style=for-the-badge" />
-
   <img src="https://img.shields.io/badge/Lake-0D1117?style=for-the-badge" />
-
-  <img src="https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex" />
   <img src="https://img.shields.io/badge/UML-0D1117?style=for-the-badge" />
-
 </p>
 
 <h3>Languages</h3>
-
 <p>
-
   <img src="https://img.shields.io/badge/English-0D1117?style=for-the-badge" />
-
   <img src="https://img.shields.io/badge/Russian-0D1117?style=for-the-badge" />
-
 </p>
 
 
