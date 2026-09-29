@@ -7,59 +7,78 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 
 # Skills
 
-### Programming Languages
+<h1>Skills</h1>
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=white)
+<h3>Programming Languages</h3>
 
-![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=white)
+<p>
 
-![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=white)
+  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=white" />
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=white)
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=white" />
 
-![R](https://img.shields.io/badge/R-0D1117?style=for-the-badge&logo=r&logoColor=white)
+  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=white" />
 
-![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-0D1117?style=for-the-badge&logo=html5&logoColor=white)
+  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=white" />
 
-### Frameworks & Libraries
+  <img src="https://img.shields.io/badge/R-0D1117?style=for-the-badge&logo=r&logoColor=white" />
 
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=white)
+  <img src="https://img.shields.io/badge/HTML%2FCSS-0D1117?style=for-the-badge&logo=html5&logoColor=white" />
 
-![Vite](https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=white)
+</p>
 
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=white)
+<h3>Frameworks & Libraries</h3>
 
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=white)
+<p>
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=white)
+  <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=white" />
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=python&logoColor=white)
+  <img src="https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=white" />
 
-![Seaborn](https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=white)
+  <img src="https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=white" />
 
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=white)
+  <img src="https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=white" />
 
-### Tools & Platforms
+  <img src="https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=white" />
 
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=white)
+  <img src="https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=python&logoColor=white" />
 
-![CLI / Unix Shell](https://img.shields.io/badge/CLI_%2F_Unix_Shell-0D1117?style=for-the-badge&logo=gnubash&logoColor=white)
+  <img src="https://img.shields.io/badge/Seaborn-0D1117?style=for-the-badge&logo=python&logoColor=white" />
 
-![Lean 4](https://img.shields.io/badge/Lean_4-0D1117?style=for-the-badge&logoColor=white)
+  <img src="https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=white" />
 
-![Mathlib](https://img.shields.io/badge/Mathlib-0D1117?style=for-the-badge&logoColor=white)
+</p>
 
-![Lake](https://img.shields.io/badge/Lake-0D1117?style=for-the-badge&logoColor=white)
+<h3>Tools & Platforms</h3>
 
-![LaTeX](https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=white)
+<p>
 
-![UML](https://img.shields.io/badge/UML-0D1117?style=for-the-badge&logoColor=white)
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=white" />
 
-### Languages
+  <img src="https://img.shields.io/badge/Unix_Shell-0D1117?style=for-the-badge&logo=gnubash&logoColor=white" />
 
-![English](https://img.shields.io/badge/English-0D1117?style=for-the-badge)
+  <img src="https://img.shields.io/badge/Lean_4-0D1117?style=for-the-badge" />
 
-![Russian](https://img.shields.io/badge/Russian-0D1117?style=for-the-badge)
+  <img src="https://img.shields.io/badge/Mathlib-0D1117?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Lake-0D1117?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=white" />
+
+  <img src="https://img.shields.io/badge/UML-0D1117?style=for-the-badge" />
+
+</p>
+
+<h3>Languages</h3>
+
+<p>
+
+  <img src="https://img.shields.io/badge/English-0D1117?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Russian-0D1117?style=for-the-badge" />
+
+</p>
+
 # 📊 GitHub Stats:
 # GitHub Stats
 
