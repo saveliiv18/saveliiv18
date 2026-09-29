@@ -10,7 +10,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 <h3>Programming Languages</h3>
 <p>
   <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/☕_Java-0D1117?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk" />
   <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c" />
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript" />
   <img src="https://img.shields.io/badge/R-0D1117?style=for-the-badge&logo=r" />
