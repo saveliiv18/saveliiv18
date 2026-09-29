@@ -77,22 +77,27 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 
 </p>
 
-# GitHub Stats:
+
+<h1>GitHub Stats</h1>
 
 <p align="center">
-
-  <img width="49%" src="https://github-readme-stats.shion.dev/api?username=saveliiv18&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=FFFFFF&border_color=30363D&hide_border=false&include_all_commits=false&count_private=false" />
-
-  <img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=saveliiv18&layout=compact&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&hide_border=false" />
-
+  <img
+    height="200"
+    width="49%"
+    src="https://github-readme-stats.shion.dev/api?username=saveliiv18&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&icon_color=FFFFFF&border_color=30363D&hide_border=false&include_all_commits=false&count_private=false"
+  />
+  <img
+    height="200"
+    width="49%"
+    src="https://github-readme-stats.shion.dev/api/top-langs/?username=saveliiv18&layout=compact&bg_color=0D1117&title_color=FFFFFF&text_color=C9D1D9&border_color=30363D&hide_border=false"
+  />
 </p>
 
 <p align="center">
-
-  <img width="49%" src="https://streak-stats.demolab.com?user=saveliiv18&background=0D1117&border=30363D&stroke=8B949E&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E" />
-
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saveliiv18&theme=github_dark" />
-
+  <img
+    height="200"
+    width="49%"
+    src="https://streak-stats.demolab.com?user=saveliiv18&background=0D1117&border=30363D&stroke=8B949E&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E"
+  />
 </p>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
