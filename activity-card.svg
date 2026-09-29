@@ -1,0 +1,58 @@
+<svg width="495" height="200"
+viewBox="0 0 495 200"
+xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.label {
+    fill: #8B949E;
+    font: 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.value {
+    fill: #C9D1D9;
+    font: 600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+.axis {
+    stroke: #FFFFFF;
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+</style>
+
+<rect x="1" y="1" width="493" height="198" rx="6"
+fill="#0D1117" stroke="#30363D"/>
+
+<!-- Commits -->
+<line class="axis"
+x1="247" y1="100"
+x2="244" y2="100"/>
+
+<!-- Issues -->
+<line class="axis"
+x1="247" y1="100"
+x2="250" y2="100"/>
+
+<!-- Code reviews -->
+<line class="axis"
+x1="247" y1="100"
+x2="247" y2="97"/>
+
+<!-- Pull requests -->
+<line class="axis"
+x1="247" y1="100"
+x2="247" y2="103"/>
+
+<circle cx="247" cy="100" r="5" fill="#FFFFFF"/>
+
+<text class="value" x="120" y="94" text-anchor="middle">0%</text>
+<text class="label" x="120" y="113" text-anchor="middle">Commits</text>
+
+<text class="value" x="375" y="94" text-anchor="middle">0%</text>
+<text class="label" x="375" y="113" text-anchor="middle">Issues</text>
+
+<text class="value" x="247" y="25" text-anchor="middle">0%</text>
+<text class="label" x="247" y="44" text-anchor="middle">Code review</text>
+
+<text class="value" x="247" y="164" text-anchor="middle">0%</text>
+<text class="label" x="247" y="183" text-anchor="middle">Pull requests</text>
+
+</svg>
