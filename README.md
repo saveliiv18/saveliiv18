@@ -2,10 +2,8 @@
 Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer Science and Applied Mathematics & Statistics. Passionate about artificial intelligence, machine learning, and algorithms. I aim to leverage these fields to develop solutions across quantitative finance and AI fields.
 
 
-## 🌐 Socials:
+## Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/savelii-vorotnikov-b7a52337b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vorotnikovsavelii@gmail.com) 
-
-# Skills
 
 <h1>Skills</h1>
 
@@ -79,7 +77,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 
 </p>
 
-# 📊 GitHub Stats:
+# GitHub Stats:
 # GitHub Stats
 
 <p align="center">
