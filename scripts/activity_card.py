@@ -5,41 +5,47 @@ import urllib.request
 USERNAME = "saveliiv18"
 TOKEN = os.environ["GITHUB_TOKEN"]
 
-url = f"https://api.github.com/users/{USERNAME}/events/public?per_page=100"
+query = """
+query($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      totalCommitContributions
+      totalPullRequestContributions
+      totalIssueContributions
+      totalPullRequestReviewContributions
+    }
+  }
+}
+"""
+
+payload = json.dumps({
+    "query": query,
+    "variables": {"login": USERNAME}
+}).encode("utf-8")
 
 request = urllib.request.Request(
-    url,
+    "https://api.github.com/graphql",
+    data=payload,
     headers={
-        "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {TOKEN}",
-        "X-GitHub-Api-Version": "2026-03-10",
+        "Content-Type": "application/json",
         "User-Agent": USERNAME,
     },
+    method="POST",
 )
 
 with urllib.request.urlopen(request) as response:
-    events = json.load(response)
+    result = json.load(response)
 
-commits = 0
-pull_requests = 0
-issues = 0
-reviews = 0
+if "errors" in result:
+    raise RuntimeError(result["errors"])
 
-for event in events:
-    event_type = event.get("type")
-    payload = event.get("payload", {})
+data = result["data"]["user"]["contributionsCollection"]
 
-    if event_type == "PushEvent":
-        commits += len(payload.get("commits", []))
-
-    elif event_type == "PullRequestEvent":
-        pull_requests += 1
-
-    elif event_type == "IssuesEvent":
-        issues += 1
-
-    elif event_type == "PullRequestReviewEvent":
-        reviews += 1
+commits = data["totalCommitContributions"]
+pull_requests = data["totalPullRequestContributions"]
+issues = data["totalIssueContributions"]
+reviews = data["totalPullRequestReviewContributions"]
 
 total = commits + pull_requests + issues + reviews
 
@@ -51,8 +57,8 @@ if total:
 else:
     commit_pct = pr_pct = issue_pct = review_pct = 0
 
-# Scale graph arms according to activity percentage.
-max_arm = 75
+# Length of graph arms
+max_arm = 100
 
 commit_arm = max(3, max_arm * commit_pct / 100)
 issue_arm = max(3, max_arm * issue_pct / 100)
@@ -92,36 +98,48 @@ x2="{247-commit_arm}" y2="100"/>
 x1="247" y1="100"
 x2="{247+issue_arm}" y2="100"/>
 
-<!-- Code reviews -->
+<!-- Code Reviews -->
 <line class="axis"
 x1="247" y1="100"
 x2="247" y2="{100-review_arm}"/>
 
-<!-- Pull requests -->
+<!-- Pull Requests -->
 <line class="axis"
 x1="247" y1="100"
 x2="247" y2="{100+pr_arm}"/>
 
 <circle cx="247" cy="100" r="5" fill="#FFFFFF"/>
 
-<text class="value" x="120" y="94" text-anchor="middle">{commit_pct}%</text>
-<text class="label" x="120" y="113" text-anchor="middle">Commits</text>
+<!-- Commits -->
+<text class="value" x="115" y="94"
+text-anchor="middle">{commit_pct}%</text>
+<text class="label" x="115" y="113"
+text-anchor="middle">Commits</text>
 
-<text class="value" x="375" y="94" text-anchor="middle">{issue_pct}%</text>
-<text class="label" x="375" y="113" text-anchor="middle">Issues</text>
+<!-- Issues -->
+<text class="value" x="380" y="94"
+text-anchor="middle">{issue_pct}%</text>
+<text class="label" x="380" y="113"
+text-anchor="middle">Issues</text>
 
-<text class="value" x="247" y="25" text-anchor="middle">{review_pct}%</text>
-<text class="label" x="247" y="44" text-anchor="middle">Code review</text>
+<!-- Reviews -->
+<text class="value" x="247" y="24"
+text-anchor="middle">{review_pct}%</text>
+<text class="label" x="247" y="43"
+text-anchor="middle">Code review</text>
 
-<text class="value" x="247" y="164" text-anchor="middle">{pr_pct}%</text>
-<text class="label" x="247" y="183" text-anchor="middle">Pull requests</text>
+<!-- PRs -->
+<text class="value" x="247" y="165"
+text-anchor="middle">{pr_pct}%</text>
+<text class="label" x="247" y="184"
+text-anchor="middle">Pull requests</text>
 
 </svg>"""
 
 with open("activity-card.svg", "w") as f:
     f.write(svg)
 
-print(f"Commits: {commits}")
-print(f"Pull requests: {pull_requests}")
-print(f"Issues: {issues}")
-print(f"Code reviews: {reviews}")
+print(f"Commits: {commits} ({commit_pct}%)")
+print(f"Pull requests: {pull_requests} ({pr_pct}%)")
+print(f"Issues: {issues} ({issue_pct}%)")
+print(f"Code reviews: {reviews} ({review_pct}%)")
