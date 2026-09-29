@@ -24,35 +24,47 @@ fill="#0D1117" stroke="#30363D"/>
 <!-- Commits -->
 <line class="axis"
 x1="247" y1="100"
-x2="244" y2="100"/>
+x2="147.0" y2="100"/>
 
 <!-- Issues -->
 <line class="axis"
 x1="247" y1="100"
 x2="250" y2="100"/>
 
-<!-- Code reviews -->
+<!-- Code Reviews -->
 <line class="axis"
 x1="247" y1="100"
 x2="247" y2="97"/>
 
-<!-- Pull requests -->
+<!-- Pull Requests -->
 <line class="axis"
 x1="247" y1="100"
 x2="247" y2="103"/>
 
 <circle cx="247" cy="100" r="5" fill="#FFFFFF"/>
 
-<text class="value" x="120" y="94" text-anchor="middle">0%</text>
-<text class="label" x="120" y="113" text-anchor="middle">Commits</text>
+<!-- Commits -->
+<text class="value" x="115" y="94"
+text-anchor="middle">100%</text>
+<text class="label" x="115" y="113"
+text-anchor="middle">Commits</text>
 
-<text class="value" x="375" y="94" text-anchor="middle">0%</text>
-<text class="label" x="375" y="113" text-anchor="middle">Issues</text>
+<!-- Issues -->
+<text class="value" x="380" y="94"
+text-anchor="middle">0%</text>
+<text class="label" x="380" y="113"
+text-anchor="middle">Issues</text>
 
-<text class="value" x="247" y="25" text-anchor="middle">0%</text>
-<text class="label" x="247" y="44" text-anchor="middle">Code review</text>
+<!-- Reviews -->
+<text class="value" x="247" y="24"
+text-anchor="middle">0%</text>
+<text class="label" x="247" y="43"
+text-anchor="middle">Code review</text>
 
-<text class="value" x="247" y="164" text-anchor="middle">0%</text>
-<text class="label" x="247" y="183" text-anchor="middle">Pull requests</text>
+<!-- PRs -->
+<text class="value" x="247" y="165"
+text-anchor="middle">0%</text>
+<text class="label" x="247" y="184"
+text-anchor="middle">Pull requests</text>
 
 </svg>
