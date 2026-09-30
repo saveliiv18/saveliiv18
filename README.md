@@ -11,6 +11,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 ## Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/savelii-vorotnikov-b7a52337b) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vorotnikovsavelii@gmail.com) 
 
+
 <h1>Skills</h1>
 
 <h3>Programming Languages</h3>
@@ -76,6 +77,18 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
   />
 </p>
 
+<br>
+
+<p align="center">
+  <img
+    src="./assets/quant-ml.svg"
+    width="100%"
+    alt="Machine Learning and Quantitative Finance"
+  />
+</p>
+
+<br>
+
 <h1>Contribution Activity</h1>
 
 <p align="center">
@@ -84,3 +97,4 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
     alt="GitHub contribution snake animation"
   />
 </p>
+
