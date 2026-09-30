@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Hi%2C+I'm+Savelii+Vorotnikov;Computer+Science+%2B+Applied+Mathematics;AI+%7C+Machine+Learning+%7C+Quantitative+Finance" />
+
+</div>
+
 # About Me:
 Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer Science and Applied Mathematics & Statistics. Passionate about artificial intelligence, machine learning, and algorithms. I aim to leverage these fields to develop solutions across quantitative finance and AI fields.
 
