@@ -76,3 +76,11 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
   />
 </p>
 
+<h1>Contribution Activity</h1>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/saveliiv18/saveliiv18/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub contribution snake animation"
+  />
+</p>
