@@ -80,7 +80,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/saveliiv18/saveliiv18/output/github-contribution-grid-snake-dark.svg"
+    src="https://raw.githubusercontent.com/saveliiv18/saveliiv18/gh-pages/github-contribution-grid-snake-dark.svg"
     alt="GitHub contribution snake animation"
   />
 </p>
