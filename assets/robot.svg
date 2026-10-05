@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="150" viewBox="0 0 180 150">
+  <style>
+    .robot {
+      animation: float 3s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .eye {
+      animation: look 4s ease-in-out infinite;
+    }
+
+    .blink {
+      animation: blink 5s infinite;
+      transform-origin: center;
+    }
+
+    .antenna {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+
+    @keyframes look {
+      0%, 20%, 100% { transform: translateX(0); }
+      35%, 50% { transform: translateX(4px); }
+      65%, 80% { transform: translateX(-4px); }
+    }
+
+    @keyframes blink {
+      0%, 44%, 48%, 100% { transform: scaleY(1); }
+      46% { transform: scaleY(0.1); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: .45; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <g class="robot">
+
+    <!-- Antenna -->
+    <line x1="90" y1="28" x2="90" y2="13"
+          stroke="#C9D1D9" stroke-width="3"/>
+
+    <circle class="antenna"
+            cx="90" cy="10" r="5"
+            fill="#FFFFFF"/>
+
+    <!-- Head -->
+    <rect x="38" y="30"
+          width="104" height="70"
+          rx="18"
+          fill="#0D1117"
+          stroke="#C9D1D9"
+          stroke-width="3"/>
+
+    <!-- Eyes -->
+    <g class="blink">
+      <g class="eye">
+        <circle cx="70" cy="62" r="8" fill="#FFFFFF"/>
+        <circle cx="110" cy="62" r="8" fill="#FFFFFF"/>
+      </g>
+    </g>
+
+    <!-- Mouth -->
+    <path d="M70 82 Q90 94 110 82"
+          fill="none"
+          stroke="#C9D1D9"
+          stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Neck -->
+    <line x1="90" y1="100" x2="90" y2="112"
+          stroke="#C9D1D9"
+          stroke-width="3"/>
+
+    <!-- Body -->
+    <rect x="55" y="110"
+          width="70" height="28"
+          rx="10"
+          fill="#0D1117"
+          stroke="#C9D1D9"
+          stroke-width="3"/>
+
+    <!-- Status -->
+    <circle cx="90" cy="124" r="4" fill="#FFFFFF"/>
+
+  </g>
+</svg>
