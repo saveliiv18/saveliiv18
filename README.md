@@ -73,7 +73,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
   <img
     height="200"
     width="49%"
-    src="https://streak-stats.demolab.com?user=saveliiv18&background=0D1117&border=30363D&stroke=8B949E&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E"
+    src="https://github-readme-stats-fast.vercel.app/api/streak?username=saveliiv18&theme=github_dark"
   />
 </p>
 
