@@ -89,6 +89,7 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
 
 <br>
 
+<!--
 <h1>Contribution Activity</h1>
 
 <p align="center">
@@ -97,4 +98,5 @@ Hi! I am a sophomore at Stony Brook University pursuing dual majors in Computer 
     alt="GitHub contribution snake animation"
   />
 </p>
+-->
 
